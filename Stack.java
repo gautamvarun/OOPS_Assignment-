@@ -14,7 +14,7 @@ void push(int data)
 {
 if(top==max)
 {
-System.out.print("Stack is Overflow");
+System.out.print("Stack Overflow");
 }
 else
 {
@@ -25,7 +25,7 @@ int pop()
 {
 if(top==-1)
 {
-System.out.print("Stack is Underflow");
+System.out.print("Stack Underflow");
 return 0;
 }
 else
