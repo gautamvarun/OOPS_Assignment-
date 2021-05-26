@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class StackImp
+public class Stackmain
 {
 public void display(Stack st1,Stack st2)
 {
@@ -18,10 +18,10 @@ int ch,data;
 StackImp si=new StackImp();
 while(true)
 {
-System.out.println("\n1. Push in Stack 1");
-System.out.println("2. Push in Stack 2");
-System.out.println("3. Pop in Stack 1");
-System.out.println("4. Pop in Stack 1");
+System.out.println("\n1. Push into Stack 1");
+System.out.println("2. Push into Stack 2");
+System.out.println("3. Pop from Stack 1");
+System.out.println("4. Pop from Stack 1");
 System.out.println("Enter Your Choice : ");
 ch=sc.nextInt();
 switch(ch)
