@@ -3,13 +3,13 @@ package inheritance;
 public class TestQuadrilateral {
 
 	public static void main(String[] args) {
-		Square sq=new Square(10,10,20,10,20,20,10,20);
+		Square sq=new Square(4,6,7,3,4,7,8,2);
 		System.out.println("Area Of The Square is " + sq.area());
-		Rectangle rec=new Rectangle(10,10,30,10,30,20,10,20);
+		Rectangle rec=new Rectangle(8,6,3,8,6,5,7,4);
 		System.out.println("Area Of The Rectangle is " + rec.area());
-		Parallelogram p=new Parallelogram(10,10,30,10,20,20,0,20,8);
+		Parallelogram p=new Parallelogram(2,7,8,4,6,7,2,3);
 		System.out.println("Area Of The Parallelogram is " + p.area());
-		Trapezoid t=new Trapezoid(10,10,30,10,40,20,0,20,8);
+		Trapezoid t=new Trapezoid(6,7,4,5,7,3,5,7);
 		System.out.println("Area Of The Trapezoid is " + t.area());
 
 	}
